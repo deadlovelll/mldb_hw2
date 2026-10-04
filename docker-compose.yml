@@ -1,0 +1,29 @@
+x-hadoop: &hadoop
+  image: apache/hadoop:3.4.1
+  platform: linux/amd64
+  env_file: ./cluster/hadoop.env
+  volumes:
+    - ./:/workspace
+  restart: unless-stopped
+
+services:
+  namenode:
+    <<: *hadoop
+    hostname: namenode
+    command: ["hdfs", "namenode"]
+    ports: ["9870:9870"]
+    environment:
+      ENSURE_NAMENODE_DIR: /tmp/hadoop-hadoop/dfs/name
+
+  datanode1: { <<: *hadoop, hostname: datanode1, command: ["hdfs", "datanode"] }
+  datanode2: { <<: *hadoop, hostname: datanode2, command: ["hdfs", "datanode"] }
+  datanode3: { <<: *hadoop, hostname: datanode3, command: ["hdfs", "datanode"] }
+
+  resourcemanager:
+    <<: *hadoop
+    hostname: resourcemanager
+    command: ["yarn", "resourcemanager"]
+    ports: ["8088:8088"]
+
+  nodemanager1: { <<: *hadoop, hostname: nodemanager1, command: ["yarn", "nodemanager"] }
+  nodemanager2: { <<: *hadoop, hostname: nodemanager2, command: ["yarn", "nodemanager"] }

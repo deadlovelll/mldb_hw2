@@ -1,0 +1,34 @@
+## 0. DataNode'ы кластера
+   datanode2 = 172.20.0.4
+   datanode1 = 172.20.0.5
+   datanode3 = 172.20.0.8
+
+## 1. Файл 3.2 МБ, блок 1 МБ, фактор репликации 2
+/user/hadoop/demo/war_and_peace.txt 3339772 bytes, replicated: replication=2, 4 block(s):  OK
+0. BP-889113036-172.20.0.2-1791032281765:blk_1073743011_2187 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK], DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK]]
+1. BP-889113036-172.20.0.2-1791032281765:blk_1073743012_2188 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK], DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK]]
+2. BP-889113036-172.20.0.2-1791032281765:blk_1073743013_2189 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.4:9866,DS-35b1f5f8-810c-4377-9f39-cba0b87f050c,DISK], DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK]]
+3. BP-889113036-172.20.0.2-1791032281765:blk_1073743014_2190 len=194044 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.4:9866,DS-35b1f5f8-810c-4377-9f39-cba0b87f050c,DISK], DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK]]
+Status: HEALTHY
+ Total blocks (validated):	4 (avg. block size 834943 B)
+ Minimally replicated blocks:	4 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+md5 до отказа:   38147cdc9f56468010a97860cc69e6b3
+
+## 2. Останавливаем datanode2 (имитация падения сервера)
+NameNode пометил datanode2 мёртвым через 59 с (нет heartbeat)
+md5 после отказа: 38147cdc9f56468010a97860cc69e6b3   <- файл читается с оставшихся реплик
+
+## 3. Ждём ре-репликацию недостающих копий на живые узлы
+Ре-репликация завершена через 64 с от отказа
+0. BP-889113036-172.20.0.2-1791032281765:blk_1073743011_2187 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK], DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK]]
+1. BP-889113036-172.20.0.2-1791032281765:blk_1073743012_2188 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK], DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK]]
+2. BP-889113036-172.20.0.2-1791032281765:blk_1073743013_2189 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK], DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK]]
+3. BP-889113036-172.20.0.2-1791032281765:blk_1073743014_2190 len=194044 Live_repl=2  [DatanodeInfoWithStorage[172.20.0.8:9866,DS-87f2af72-12fc-4fd5-8e77-98d33082b770,DISK], DatanodeInfoWithStorage[172.20.0.5:9866,DS-09f802bb-66e3-4d77-a158-c49574119ff9,DISK]]
+Status: HEALTHY
+ Under-replicated blocks:	0 (0.0 %)
+
+## 4. Возвращаем datanode2
+Live datanodes (3):

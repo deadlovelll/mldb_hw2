@@ -1,0 +1,702 @@
+[
+ {
+  "id": 1342,
+  "title": "Pride and Prejudice",
+  "author": "Austen, Jane",
+  "file": "1342_pride_and_prejudice.txt",
+  "bytes": 752441
+ },
+ {
+  "id": 2701,
+  "title": "Moby Dick; Or, The Whale",
+  "author": "Melville, Herman",
+  "file": "2701_moby_dick_or_the_whale.txt",
+  "bytes": 1256435
+ },
+ {
+  "id": 84,
+  "title": "Frankenstein; or, the modern prometheus",
+  "author": "Shelley, Mary Wollstonecraft",
+  "file": "84_frankenstein_or_the_modern_prometheus.txt",
+  "bytes": 428891
+ },
+ {
+  "id": 11,
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Carroll, Lewis",
+  "file": "11_alice_s_adventures_in_wonderland.txt",
+  "bytes": 154473
+ },
+ {
+  "id": 1661,
+  "title": "The Adventures of Sherlock Holmes",
+  "author": "Doyle, Arthur Conan",
+  "file": "1661_the_adventures_of_sherlock_holmes.txt",
+  "bytes": 587714
+ },
+ {
+  "id": 8492,
+  "title": "The King in Yellow",
+  "author": "Chambers, Robert W. (Robert William)",
+  "file": "8492_the_king_in_yellow.txt",
+  "bytes": 421281
+ },
+ {
+  "id": 6133,
+  "title": "The Extraordinary Adventures of Arsène Lupin, Gentleman-Burglar",
+  "author": "Leblanc, Maurice",
+  "file": "6133_the_extraordinary_adventures_of_ars_ne_l.txt",
+  "bytes": 324191
+ },
+ {
+  "id": 1513,
+  "title": "Romeo and Juliet",
+  "author": "Shakespeare, William",
+  "file": "1513_romeo_and_juliet.txt",
+  "bytes": 149660
+ },
+ {
+  "id": 5197,
+  "title": "My Life — Volume 1",
+  "author": "Wagner, Richard",
+  "file": "5197_my_life_volume_1.txt",
+  "bytes": 1275679
+ },
+ {
+  "id": 345,
+  "title": "Dracula",
+  "author": "Stoker, Bram",
+  "file": "345_dracula.txt",
+  "bytes": 870539
+ },
+ {
+  "id": 100,
+  "title": "The Complete Works of William Shakespeare",
+  "author": "Shakespeare, William",
+  "file": "100_the_complete_works_of_william_shakespear.txt",
+  "bytes": 5618633
+ },
+ {
+  "id": 2554,
+  "title": "Crime and Punishment",
+  "author": "Dostoyevsky, Fyodor",
+  "file": "2554_crime_and_punishment.txt",
+  "bytes": 1181877
+ },
+ {
+  "id": 37683,
+  "title": "Chambers's Twentieth Century Dictionary (part 1 of 4: A-D)",
+  "author": "?",
+  "file": "37683_chambers_s_twentieth_century_dictionary_.txt",
+  "bytes": 2275170
+ },
+ {
+  "id": 43,
+  "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+  "author": "Stevenson, Robert Louis",
+  "file": "43_the_strange_case_of_dr_jekyll_and_mr_hyd.txt",
+  "bytes": 143623
+ },
+ {
+  "id": 2641,
+  "title": "A Room with a View",
+  "author": "Forster, E. M. (Edward Morgan)",
+  "file": "2641_a_room_with_a_view.txt",
+  "bytes": 396071
+ },
+ {
+  "id": 145,
+  "title": "Middlemarch",
+  "author": "Eliot, George",
+  "file": "145_middlemarch.txt",
+  "bytes": 1845966
+ },
+ {
+  "id": 37106,
+  "title": "Little Women; Or, Meg, Jo, Beth, and Amy",
+  "author": "Alcott, Louisa May",
+  "file": "37106_little_women_or_meg_jo_beth_and_amy.txt",
+  "bytes": 1093428
+ },
+ {
+  "id": 1727,
+  "title": "The Odyssey: Rendered into English prose for the use of those who cannot read the original",
+  "author": "Homer",
+  "file": "1727_the_odyssey_rendered_into_english_prose_.txt",
+  "bytes": 697994
+ },
+ {
+  "id": 67979,
+  "title": "The Blue Castle: a novel",
+  "author": "Montgomery, L. M. (Lucy Maud)",
+  "file": "67979_the_blue_castle_a_novel.txt",
+  "bytes": 408262
+ },
+ {
+  "id": 16328,
+  "title": "Beowulf: An Anglo-Saxon Epic Poem",
+  "author": "?",
+  "file": "16328_beowulf_an_anglo_saxon_epic_poem.txt",
+  "bytes": 280553
+ },
+ {
+  "id": 24739,
+  "title": "Bidwell's Travels, from Wall Street to London Prison: Fifteen Years in Solitude",
+  "author": "Bidwell, Austin",
+  "file": "24739_bidwell_s_travels_from_wall_street_to_lo.txt",
+  "bytes": 776635
+ },
+ {
+  "id": 8486,
+  "title": "Ghost Stories of an Antiquary",
+  "author": "James, M. R. (Montague Rhodes)",
+  "file": "8486_ghost_stories_of_an_antiquary.txt",
+  "bytes": 257473
+ },
+ {
+  "id": 10002,
+  "title": "The House on the Borderland",
+  "author": "Hodgson, William Hope",
+  "file": "10002_the_house_on_the_borderland.txt",
+  "bytes": 285461
+ },
+ {
+  "id": 7735,
+  "title": "Paul Clifford — Complete",
+  "author": "Lytton, Edward Bulwer Lytton, Baron",
+  "file": "7735_paul_clifford_complete.txt",
+  "bytes": 1075052
+ },
+ {
+  "id": 8954,
+  "title": "Lady Audley's Secret",
+  "author": "Braddon, M. E. (Mary Elizabeth)",
+  "file": "8954_lady_audley_s_secret.txt",
+  "bytes": 838077
+ },
+ {
+  "id": 1260,
+  "title": "Jane Eyre: An Autobiography",
+  "author": "Brontë, Charlotte",
+  "file": "1260_jane_eyre_an_autobiography.txt",
+  "bytes": 1064962
+ },
+ {
+  "id": 21839,
+  "title": "Sense and Sensibility",
+  "author": "Austen, Jane",
+  "file": "21839_sense_and_sensibility.txt",
+  "bytes": 703312
+ },
+ {
+  "id": 4499,
+  "title": "Complete Short Works of George Meredith",
+  "author": "Meredith, George",
+  "file": "4499_complete_short_works_of_george_meredith.txt",
+  "bytes": 990995
+ },
+ {
+  "id": 10102,
+  "title": "The Czar's Spy: The Mystery of a Silent Love",
+  "author": "Le Queux, William",
+  "file": "10102_the_czar_s_spy_the_mystery_of_a_silent_l.txt",
+  "bytes": 519876
+ },
+ {
+  "id": 12758,
+  "title": "Library of the World's Best Mystery and Detective Stories",
+  "author": "?",
+  "file": "12758_library_of_the_world_s_best_mystery_and_.txt",
+  "bytes": 576410
+ },
+ {
+  "id": 6635,
+  "title": "A Romance of Billy-Goat Hill",
+  "author": "Rice, Alice Caldwell Hegan",
+  "file": "6635_a_romance_of_billy_goat_hill.txt",
+  "bytes": 475460
+ },
+ {
+  "id": 4712,
+  "title": "The Landloper: The Romance of a Man on Foot",
+  "author": "Day, Holman",
+  "file": "4712_the_landloper_the_romance_of_a_man_on_fo.txt",
+  "bytes": 582651
+ },
+ {
+  "id": 7889,
+  "title": "Erotica Romana",
+  "author": "Goethe, Johann Wolfgang von",
+  "file": "7889_erotica_romana.txt",
+  "bytes": 42267
+ },
+ {
+  "id": 11987,
+  "title": "By Advice of Counsel",
+  "author": "Train, Arthur Cheney",
+  "file": "11987_by_advice_of_counsel.txt",
+  "bytes": 405980
+ },
+ {
+  "id": 174,
+  "title": "The Picture of Dorian Gray",
+  "author": "Wilde, Oscar",
+  "file": "174_the_picture_of_dorian_gray.txt",
+  "bytes": 445978
+ },
+ {
+  "id": 12345,
+  "title": "Friday, the Thirteenth: A Novel",
+  "author": "Lawson, Thomas William",
+  "file": "12345_friday_the_thirteenth_a_novel.txt",
+  "bytes": 263814
+ },
+ {
+  "id": 1184,
+  "title": "The Count of Monte Cristo",
+  "author": "Dumas, Alexandre",
+  "file": "1184_the_count_of_monte_cristo.txt",
+  "bytes": 2767239
+ },
+ {
+  "id": 98,
+  "title": "A Tale of Two Cities",
+  "author": "Dickens, Charles",
+  "file": "98_a_tale_of_two_cities.txt",
+  "bytes": 787401
+ },
+ {
+  "id": 64317,
+  "title": "The Great Gatsby",
+  "author": "Fitzgerald, F. Scott (Francis Scott)",
+  "file": "64317_the_great_gatsby.txt",
+  "bytes": 286640
+ },
+ {
+  "id": 2680,
+  "title": "Meditations",
+  "author": "Marcus Aurelius, Emperor of Rome",
+  "file": "2680_meditations.txt",
+  "bytes": 405526
+ },
+ {
+  "id": 65238,
+  "title": "The Secret of Chimneys",
+  "author": "Christie, Agatha",
+  "file": "65238_the_secret_of_chimneys.txt",
+  "bytes": 457364
+ },
+ {
+  "id": 14471,
+  "title": "The Empty House and Other Ghost Stories",
+  "author": "Blackwood, Algernon",
+  "file": "14471_the_empty_house_and_other_ghost_stories.txt",
+  "bytes": 376943
+ },
+ {
+  "id": 8197,
+  "title": "India's Love Lyrics",
+  "author": "Hope, Laurence",
+  "file": "8197_india_s_love_lyrics.txt",
+  "bytes": 137557
+ },
+ {
+  "id": 15384,
+  "title": "The Real Adventure",
+  "author": "Webster, Henry Kitchell",
+  "file": "15384_the_real_adventure.txt",
+  "bytes": 1148596
+ },
+ {
+  "id": 14818,
+  "title": "The Daughter of Anderson Crow",
+  "author": "McCutcheon, George Barr",
+  "file": "14818_the_daughter_of_anderson_crow.txt",
+  "bytes": 449799
+ },
+ {
+  "id": 7326,
+  "title": "The Yeoman Adventurer",
+  "author": "Gough, George W.",
+  "file": "7326_the_yeoman_adventurer.txt",
+  "bytes": 688684
+ },
+ {
+  "id": 18151,
+  "title": "Time Crime",
+  "author": "Piper, H. Beam",
+  "file": "18151_time_crime.txt",
+  "bytes": 219856
+ },
+ {
+  "id": 45839,
+  "title": "Dracula",
+  "author": "Stoker, Bram",
+  "file": "45839_dracula.txt",
+  "bytes": 867018
+ },
+ {
+  "id": 4488,
+  "title": "The Amazing Marriage — Complete",
+  "author": "Meredith, George",
+  "file": "4488_the_amazing_marriage_complete.txt",
+  "bytes": 912707
+ },
+ {
+  "id": 10441,
+  "title": "The Green Mouse",
+  "author": "Chambers, Robert W. (Robert William)",
+  "file": "10441_the_green_mouse.txt",
+  "bytes": 287321
+ },
+ {
+  "id": 1952,
+  "title": "The Yellow Wallpaper",
+  "author": "Gilman, Charlotte Perkins",
+  "file": "1952_the_yellow_wallpaper.txt",
+  "bytes": 32743
+ },
+ {
+  "id": 4693,
+  "title": "Famous Affinities of History: The Romance of Devotion. Vol 1-4, Complete",
+  "author": "Orr, Lyndon",
+  "file": "4693_famous_affinities_of_history_the_romance.txt",
+  "bytes": 780531
+ },
+ {
+  "id": 20546,
+  "title": "The Hand in the Dark",
+  "author": "Rees, Arthur J. (Arthur John)",
+  "file": "20546_the_hand_in_the_dark.txt",
+  "bytes": 614844
+ },
+ {
+  "id": 1259,
+  "title": "Twenty years after",
+  "author": "Dumas, Alexandre",
+  "file": "1259_twenty_years_after.txt",
+  "bytes": 1455064
+ },
+ {
+  "id": 16389,
+  "title": "The Enchanted April",
+  "author": "Von Arnim, Elizabeth",
+  "file": "16389_the_enchanted_april.txt",
+  "bytes": 456629
+ },
+ {
+  "id": 20121,
+  "title": "Lone Star Planet",
+  "author": "Piper, H. Beam",
+  "file": "20121_lone_star_planet.txt",
+  "bytes": 179759
+ },
+ {
+  "id": 24793,
+  "title": "Blow The Man Down: A Romance Of The Coast",
+  "author": "Day, Holman",
+  "file": "24793_blow_the_man_down_a_romance_of_the_coast.txt",
+  "bytes": 810534
+ },
+ {
+  "id": 22163,
+  "title": "The Rover Boys on the Farm; or, Last Days at Putnam Hall",
+  "author": "Stratemeyer, Edward",
+  "file": "22163_the_rover_boys_on_the_farm_or_last_days_.txt",
+  "bytes": 275073
+ },
+ {
+  "id": 1232,
+  "title": "The Prince",
+  "author": "Machiavelli, Niccolò",
+  "file": "1232_the_prince.txt",
+  "bytes": 288219
+ },
+ {
+  "id": 2600,
+  "title": "War and Peace",
+  "author": "Tolstoy, Leo, graf",
+  "file": "2600_war_and_peace.txt",
+  "bytes": 3339772
+ },
+ {
+  "id": 394,
+  "title": "Cranford",
+  "author": "Gaskell, Elizabeth Cleghorn",
+  "file": "394_cranford.txt",
+  "bytes": 401747
+ },
+ {
+  "id": 6593,
+  "title": "History of Tom Jones, a Foundling",
+  "author": "Fielding, Henry",
+  "file": "6593_history_of_tom_jones_a_foundling.txt",
+  "bytes": 2013775
+ },
+ {
+  "id": 6768,
+  "title": "The Man Upstairs and Other Stories",
+  "author": "Wodehouse, P. G. (Pelham Grenville)",
+  "file": "6768_the_man_upstairs_and_other_stories.txt",
+  "bytes": 575384
+ },
+ {
+  "id": 23172,
+  "title": "The Damned Thing: 1898, From \"In the Midst of Life\"",
+  "author": "Bierce, Ambrose",
+  "file": "23172_the_damned_thing_1898_from_in_the_midst_.txt",
+  "bytes": 18485
+ },
+ {
+  "id": 24149,
+  "title": "The Ambulance Made Two Trips",
+  "author": "Leinster, Murray",
+  "file": "24149_the_ambulance_made_two_trips.txt",
+  "bytes": 46536
+ },
+ {
+  "id": 6761,
+  "title": "The Adventures of Ferdinand Count Fathom — Complete",
+  "author": "Smollett, T. (Tobias)",
+  "file": "6761_the_adventures_of_ferdinand_count_fathom.txt",
+  "bytes": 974579
+ },
+ {
+  "id": 6400,
+  "title": "The Lives of the Twelve Caesars, Complete",
+  "author": "Suetonius",
+  "file": "6400_the_lives_of_the_twelve_caesars_complete.txt",
+  "bytes": 1403065
+ },
+ {
+  "id": 23599,
+  "title": "The Big Fix",
+  "author": "Smith, George O. (George Oliver)",
+  "file": "23599_the_big_fix.txt",
+  "bytes": 54008
+ },
+ {
+  "id": 2160,
+  "title": "The Expedition of Humphry Clinker",
+  "author": "Smollett, T. (Tobias)",
+  "file": "2160_the_expedition_of_humphry_clinker.txt",
+  "bytes": 867534
+ },
+ {
+  "id": 7184,
+  "title": "A Heart-Song of To-day (Disturbed by Fire from the 'Unruly Member'): A Novel",
+  "author": "Savigny, Annie G. (Annie Gregg)",
+  "file": "7184_a_heart_song_of_to_day_disturbed_by_fire.txt",
+  "bytes": 616065
+ },
+ {
+  "id": 26563,
+  "title": "The Crack of Doom",
+  "author": "Cromie, Robert",
+  "file": "26563_the_crack_of_doom.txt",
+  "bytes": 248734
+ },
+ {
+  "id": 74,
+  "title": "The Adventures of Tom Sawyer, Complete",
+  "author": "Twain, Mark",
+  "file": "74_the_adventures_of_tom_sawyer_complete.txt",
+  "bytes": 414508
+ },
+ {
+  "id": 28054,
+  "title": "The Brothers Karamazov",
+  "author": "Dostoyevsky, Fyodor",
+  "file": "28054_the_brothers_karamazov.txt",
+  "bytes": 2019327
+ },
+ {
+  "id": 4085,
+  "title": "The Adventures of Roderick Random",
+  "author": "Smollett, T. (Tobias)",
+  "file": "4085_the_adventures_of_roderick_random.txt",
+  "bytes": 1099459
+ },
+ {
+  "id": 7452,
+  "title": "Autobiography of a Yogi",
+  "author": "Yogananda, Paramahansa",
+  "file": "7452_autobiography_of_a_yogi.txt",
+  "bytes": 963222
+ },
+ {
+  "id": 6130,
+  "title": "The Iliad",
+  "author": "Homer",
+  "file": "6130_the_iliad.txt",
+  "bytes": 1141493
+ },
+ {
+  "id": 23,
+  "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+  "author": "Douglass, Frederick",
+  "file": "23_narrative_of_the_life_of_frederick_dougl.txt",
+  "bytes": 229076
+ },
+ {
+  "id": 6081,
+  "title": "Biographia Literaria",
+  "author": "Coleridge, Samuel Taylor",
+  "file": "6081_biographia_literaria.txt",
+  "bytes": 840252
+ },
+ {
+  "id": 47530,
+  "title": "Oliver Twist, Vol. 2 (of 3)",
+  "author": "Dickens, Charles",
+  "file": "47530_oliver_twist_vol_2_of_3.txt",
+  "bytes": 300937
+ },
+ {
+  "id": 9473,
+  "title": "The Knights of the Cross, or, Krzyzacy: Historical Romance",
+  "author": "Sienkiewicz, Henryk",
+  "file": "9473_the_knights_of_the_cross_or_krzyzacy_his.txt",
+  "bytes": 1246398
+ },
+ {
+  "id": 9911,
+  "title": "The Torrents of Spring",
+  "author": "Turgenev, Ivan Sergeevich",
+  "file": "9911_the_torrents_of_spring.txt",
+  "bytes": 498539
+ },
+ {
+  "id": 40284,
+  "title": "The Sex Life of the Gods",
+  "author": "Knerr, M. E. (Michael E.)",
+  "file": "40284_the_sex_life_of_the_gods.txt",
+  "bytes": 181056
+ },
+ {
+  "id": 27475,
+  "title": "That Girl Montana",
+  "author": "Ryan, Marah Ellis",
+  "file": "27475_that_girl_montana.txt",
+  "bytes": 565064
+ },
+ {
+  "id": 27997,
+  "title": "Robert Orange: Being a Continuation of the History of Robert Orange",
+  "author": "Hobbes, John Oliver",
+  "file": "27997_robert_orange_being_a_continuation_of_th.txt",
+  "bytes": 587821
+ },
+ {
+  "id": 28780,
+  "title": "Peter the Brazen: A Mystery Story of Modern China",
+  "author": "Worts, George F. (George Frank)",
+  "file": "28780_peter_the_brazen_a_mystery_story_of_mode.txt",
+  "bytes": 534479
+ },
+ {
+  "id": 14244,
+  "title": "The Romance of Tristan and Iseult",
+  "author": "Bédier, Joseph",
+  "file": "14244_the_romance_of_tristan_and_iseult.txt",
+  "bytes": 139123
+ },
+ {
+  "id": 59828,
+  "title": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+  "author": "Prest, Thomas Peckett",
+  "file": "59828_the_string_of_pearls_or_the_barber_of_fl.txt",
+  "bytes": 2413442
+ },
+ {
+  "id": 31469,
+  "title": "The Shunned House",
+  "author": "Lovecraft, H. P. (Howard Phillips)",
+  "file": "31469_the_shunned_house.txt",
+  "bytes": 65117
+ },
+ {
+  "id": 30849,
+  "title": "The Works of Robert Louis Stevenson - Swanston Edition, Vol. 20",
+  "author": "Stevenson, Robert Louis",
+  "file": "30849_the_works_of_robert_louis_stevenson_swan.txt",
+  "bytes": 742020
+ },
+ {
+  "id": 30434,
+  "title": "Occasion ... for Disaster",
+  "author": "Garrett, Randall",
+  "file": "30434_occasion_for_disaster.txt",
+  "bytes": 401032
+ },
+ {
+  "id": 30340,
+  "title": "The Passionate Friends",
+  "author": "Wells, H. G. (Herbert George)",
+  "file": "30340_the_passionate_friends.txt",
+  "bytes": 605361
+ },
+ {
+  "id": 15381,
+  "title": "Victorian Short Stories: Stories of Courtship",
+  "author": "?",
+  "file": "15381_victorian_short_stories_stories_of_court.txt",
+  "bytes": 202495
+ },
+ {
+  "id": 34323,
+  "title": "The Samurai Strategy",
+  "author": "Hoover, Thomas",
+  "file": "34323_the_samurai_strategy.txt",
+  "bytes": 800998
+ },
+ {
+  "id": 17460,
+  "title": "Lorna Doone: A Romance of Exmoor",
+  "author": "Blackmore, R. D. (Richard Doddridge)",
+  "file": "17460_lorna_doone_a_romance_of_exmoor.txt",
+  "bytes": 1491078
+ },
+ {
+  "id": 18459,
+  "title": "Hypnerotomachia: The Strife of Loue in a Dreame",
+  "author": "Colonna, Francesco",
+  "file": "18459_hypnerotomachia_the_strife_of_loue_in_a_.txt",
+  "bytes": 423526
+ },
+ {
+  "id": 3296,
+  "title": "The Confessions of St. Augustine",
+  "author": "Augustine, of Hippo, Saint",
+  "file": "3296_the_confessions_of_st_augustine.txt",
+  "bytes": 612294
+ },
+ {
+  "id": 55,
+  "title": "The Wonderful Wizard of Oz",
+  "author": "Baum, L. Frank (Lyman Frank)",
+  "file": "55_the_wonderful_wizard_of_oz.txt",
+  "bytes": 217454
+ },
+ {
+  "id": 34318,
+  "title": "Life Blood",
+  "author": "Hoover, Thomas",
+  "file": "34318_life_blood.txt",
+  "bytes": 575383
+ },
+ {
+  "id": 1400,
+  "title": "Great Expectations",
+  "author": "Dickens, Charles",
+  "file": "1400_great_expectations.txt",
+  "bytes": 1038404
+ },
+ {
+  "id": 38983,
+  "title": "The Camp Fire Girls Solve a Mystery; Or, The Christmas Adventure at Carver House",
+  "author": "Frey, Hildegard G.",
+  "file": "38983_the_camp_fire_girls_solve_a_mystery_or_t.txt",
+  "bytes": 309206
+ }
+]

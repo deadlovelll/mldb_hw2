@@ -1,0 +1,65 @@
+[15:51:39] local benchmarks x1
+python_w1	1	3.76
+python_w8	1	2.05
+hadoop_localjobrunner	1	32.67
+python_w1	2	3.81
+python_w8	2	1.87
+hadoop_localjobrunner	2	31.48
+python_w1	3	3.73
+python_w8	3	1.83
+hadoop_localjobrunner	3	33.79
+[15:53:35] local benchmarks x8
+python_w1	1	31.11
+python_w8	1	13.73
+hadoop_localjobrunner	1	206.98
+[15:57:47] recreate cluster with tuned memory
+[15:58:11] hadoop x1 combine
+Documents: 100, reducers: 4, top-N: 10, combine.mb: 64
+		IO_ERROR=0
+		IO_ERROR=0
+		IO_ERROR=0
+		IO_ERROR=0
+STAGE tfidf-1-term-count         48.17s  maps=3 reduces=4 map_in=1550175 map_out=12547131 combine_out=1664003 shuffle_bytes=45660149 reduce_groups=879659 reduce_out=879659 spilled=2543662
+STAGE tfidf-2-term-frequency     32.39s  maps=4 reduces=4 map_in=879659 map_out=879659 combine_out=0 shuffle_bytes=44042944 reduce_groups=100 reduce_out=879659 spilled=1759318
+STAGE tfidf-3-tfidf              35.24s  maps=4 reduces=4 map_in=879659 map_out=879659 combine_out=0 shuffle_bytes=49870402 reduce_groups=116788 reduce_out=879659 spilled=1759318
+STAGE tfidf-4-top-n              29.58s  maps=4 reduces=2 map_in=879659 map_out=4000 combine_out=0 shuffle_bytes=255296 reduce_groups=100 reduce_out=1000 spilled=8000
+TOTAL_SECONDS 145.45
+[16:00:59] hadoop x1 naive
+Documents: 100, reducers: 4, top-N: 10, combine.mb: 0
+[2026-10-03 13:02:05.745]Exception from container-launch.
+		IO_ERROR=0
+		IO_ERROR=0
+		IO_ERROR=0
+		IO_ERROR=0
+STAGE tfidf-1-term-count        239.55s  maps=101 reduces=4 map_in=1550175 map_out=12547131 combine_out=879659 shuffle_bytes=45662501 reduce_groups=879659 reduce_out=879659 spilled=1759318
+STAGE tfidf-2-term-frequency     33.84s  maps=4 reduces=4 map_in=879659 map_out=879659 combine_out=0 shuffle_bytes=44042944 reduce_groups=100 reduce_out=879659 spilled=1759318
+STAGE tfidf-3-tfidf              31.97s  maps=4 reduces=4 map_in=879659 map_out=879659 combine_out=0 shuffle_bytes=49870402 reduce_groups=116788 reduce_out=879659 spilled=1759318
+STAGE tfidf-4-top-n              28.33s  maps=4 reduces=2 map_in=879659 map_out=4000 combine_out=0 shuffle_bytes=255296 reduce_groups=100 reduce_out=1000 spilled=8000
+TOTAL_SECONDS 333.79
+[16:06:54] hadoop x8 combine
+Documents: 800, reducers: 4, top-N: 10, combine.mb: 64
+		IO_ERROR=0
+		IO_ERROR=0
+		IO_ERROR=0
+		IO_ERROR=0
+STAGE tfidf-1-term-count        115.13s  maps=11 reduces=4 map_in=12401400 map_out=100377048 combine_out=14287904 shuffle_bytes=386392840 reduce_groups=7037272 reduce_out=7037272 spilled=21325176
+STAGE tfidf-2-term-frequency     62.77s  maps=12 reduces=4 map_in=7037272 map_out=7037272 combine_out=0 shuffle_bytes=373454888 reduce_groups=800 reduce_out=7037272 spilled=14074544
+STAGE tfidf-3-tfidf              63.02s  maps=12 reduces=4 map_in=7037272 map_out=7037272 combine_out=0 shuffle_bytes=420074552 reduce_groups=116788 reduce_out=7037272 spilled=14074544
+STAGE tfidf-4-top-n              59.88s  maps=16 reduces=2 map_in=7037272 map_out=128000 combine_out=0 shuffle_bytes=8615944 reduce_groups=800 reduce_out=8000 spilled=256000
+TOTAL_SECONDS 300.88
+[16:13:07] compare x1
+TF-IDF pairs: hadoop=879659, local=879659, only_hadoop=0, only_local=0
+max |tfidf_hadoop - tfidf_local| = 0.000e+00
+Top-N rows: hadoop=1000, local=1000, identical (doc, rank, term): True
+RESULT: MATCH
+[16:13:09] compare x1 naive
+TF-IDF pairs: hadoop=879659, local=879659, only_hadoop=0, only_local=0
+max |tfidf_hadoop - tfidf_local| = 0.000e+00
+Top-N rows: hadoop=1000, local=1000, identical (doc, rank, term): True
+RESULT: MATCH
+[16:13:10] compare x8
+TF-IDF pairs: hadoop=7037272, local=7037272, only_hadoop=0, only_local=0
+max |tfidf_hadoop - tfidf_local| = 0.000e+00
+Top-N rows: hadoop=8000, local=8000, identical (doc, rank, term): True
+RESULT: MATCH
+[16:13:27] done

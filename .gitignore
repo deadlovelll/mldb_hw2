@@ -1,0 +1,10 @@
+lib/
+build/
+tfidf.jar
+data/corpus/
+data/corpus_x8/
+results/local_*/
+results/hadoop_*/3_tfidf/
+results/hadoop_*/4_top_n/_SUCCESS
+.DS_Store
+__pycache__/

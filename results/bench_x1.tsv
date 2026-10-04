@@ -1,0 +1,10 @@
+impl	run	seconds
+python_w1	1	3.76
+python_w8	1	2.05
+hadoop_localjobrunner	1	32.67
+python_w1	2	3.81
+python_w8	2	1.87
+hadoop_localjobrunner	2	31.48
+python_w1	3	3.73
+python_w8	3	1.83
+hadoop_localjobrunner	3	33.79

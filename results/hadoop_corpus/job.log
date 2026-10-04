@@ -1,0 +1,445 @@
+Documents: 100, reducers: 4, top-N: 10, combine.mb: 0
+2026-10-03 13:01:15 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.20.0.6:8032
+2026-10-03 13:01:16 INFO  JobResourceUploader:907 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1791032284741_0005
+2026-10-03 13:01:16 INFO  FileInputFormat:302 - Total input files to process : 100
+2026-10-03 13:01:17 INFO  JobSubmitter:203 - number of splits:100
+2026-10-03 13:01:17 INFO  JobSubmitter:299 - Submitting tokens for job: job_1791032284741_0005
+2026-10-03 13:01:17 INFO  JobSubmitter:300 - Executing with tokens: []
+2026-10-03 13:01:17 INFO  Configuration:2898 - resource-types.xml not found
+2026-10-03 13:01:17 INFO  ResourceUtils:476 - Unable to find 'resource-types.xml'.
+2026-10-03 13:01:17 INFO  YarnClientImpl:356 - Submitted application application_1791032284741_0005
+2026-10-03 13:01:17 INFO  Job:1681 - The url to track the job: http://resourcemanager:8088/proxy/application_1791032284741_0005/
+2026-10-03 13:01:17 INFO  Job:1726 - Running job: job_1791032284741_0005
+2026-10-03 13:01:25 INFO  Job:1747 - Job job_1791032284741_0005 running in uber mode : false
+2026-10-03 13:01:25 INFO  Job:1754 -  map 0% reduce 0%
+2026-10-03 13:01:34 INFO  Job:1754 -  map 1% reduce 0%
+2026-10-03 13:01:35 INFO  Job:1754 -  map 2% reduce 0%
+2026-10-03 13:01:38 INFO  Job:1754 -  map 3% reduce 0%
+2026-10-03 13:01:39 INFO  Job:1754 -  map 4% reduce 0%
+2026-10-03 13:01:41 INFO  Job:1754 -  map 5% reduce 0%
+2026-10-03 13:01:43 INFO  Job:1754 -  map 6% reduce 0%
+2026-10-03 13:01:46 INFO  Job:1754 -  map 7% reduce 0%
+2026-10-03 13:01:47 INFO  Job:1754 -  map 8% reduce 0%
+2026-10-03 13:01:48 INFO  Job:1754 -  map 9% reduce 0%
+2026-10-03 13:01:49 INFO  Job:1754 -  map 10% reduce 0%
+2026-10-03 13:01:54 INFO  Job:1754 -  map 11% reduce 0%
+2026-10-03 13:01:57 INFO  Job:1754 -  map 12% reduce 0%
+2026-10-03 13:01:58 INFO  Job:1754 -  map 13% reduce 0%
+2026-10-03 13:02:00 INFO  Job:1754 -  map 14% reduce 0%
+2026-10-03 13:02:02 INFO  Job:1754 -  map 15% reduce 0%
+2026-10-03 13:02:03 INFO  Job:1754 -  map 16% reduce 0%
+2026-10-03 13:02:06 INFO  Job:1754 -  map 17% reduce 0%
+2026-10-03 13:02:06 INFO  Job:1793 - Task Id : attempt_1791032284741_0005_m_000020_0, Status : FAILED
+[2026-10-03 13:02:05.745]Exception from container-launch.
+Container id: container_1791032284741_0005_01_000022
+Exit code: 139
+
+[2026-10-03 13:02:05.867]Container exited with a non-zero exit code 139. Error file: prelaunch.err.
+Last 4096 bytes of prelaunch.err :
+/tmp/hadoop-hadoop/nm-local-dir/usercache/hadoop/appcache/application_1791032284741_0005/container_1791032284741_0005_01_000022/launch_container.sh: line 52:  2093 Segmentation fault      (core dumped) find -L . -maxdepth 5 -ls >> "/var/log/hadoop/userlogs/application_1791032284741_0005/container_1791032284741_0005_01_000022/directory.info"
+
+[2026-10-03 13:02:05.870]Container exited with a non-zero exit code 139. Error file: prelaunch.err.
+Last 4096 bytes of prelaunch.err :
+/tmp/hadoop-hadoop/nm-local-dir/usercache/hadoop/appcache/application_1791032284741_0005/container_1791032284741_0005_01_000022/launch_container.sh: line 52:  2093 Segmentation fault      (core dumped) find -L . -maxdepth 5 -ls >> "/var/log/hadoop/userlogs/application_1791032284741_0005/container_1791032284741_0005_01_000022/directory.info"
+
+
+2026-10-03 13:02:08 INFO  Job:1754 -  map 18% reduce 0%
+2026-10-03 13:02:09 INFO  Job:1754 -  map 19% reduce 0%
+2026-10-03 13:02:12 INFO  Job:1754 -  map 20% reduce 0%
+2026-10-03 13:02:18 INFO  Job:1754 -  map 22% reduce 0%
+2026-10-03 13:02:19 INFO  Job:1754 -  map 23% reduce 0%
+2026-10-03 13:02:21 INFO  Job:1754 -  map 24% reduce 0%
+2026-10-03 13:02:23 INFO  Job:1754 -  map 25% reduce 0%
+2026-10-03 13:02:27 INFO  Job:1754 -  map 26% reduce 0%
+2026-10-03 13:02:29 INFO  Job:1754 -  map 27% reduce 0%
+2026-10-03 13:02:30 INFO  Job:1754 -  map 28% reduce 0%
+2026-10-03 13:02:32 INFO  Job:1754 -  map 29% reduce 0%
+2026-10-03 13:02:33 INFO  Job:1754 -  map 30% reduce 0%
+2026-10-03 13:02:37 INFO  Job:1754 -  map 32% reduce 0%
+2026-10-03 13:02:40 INFO  Job:1754 -  map 33% reduce 0%
+2026-10-03 13:02:41 INFO  Job:1754 -  map 34% reduce 0%
+2026-10-03 13:02:44 INFO  Job:1754 -  map 35% reduce 0%
+2026-10-03 13:02:47 INFO  Job:1754 -  map 36% reduce 0%
+2026-10-03 13:02:48 INFO  Job:1754 -  map 37% reduce 0%
+2026-10-03 13:02:50 INFO  Job:1754 -  map 38% reduce 0%
+2026-10-03 13:02:52 INFO  Job:1754 -  map 39% reduce 0%
+2026-10-03 13:02:53 INFO  Job:1754 -  map 40% reduce 0%
+2026-10-03 13:02:56 INFO  Job:1754 -  map 41% reduce 0%
+2026-10-03 13:02:59 INFO  Job:1754 -  map 42% reduce 0%
+2026-10-03 13:03:01 INFO  Job:1754 -  map 43% reduce 0%
+2026-10-03 13:03:02 INFO  Job:1754 -  map 44% reduce 0%
+2026-10-03 13:03:04 INFO  Job:1754 -  map 45% reduce 0%
+2026-10-03 13:03:07 INFO  Job:1754 -  map 46% reduce 0%
+2026-10-03 13:03:09 INFO  Job:1754 -  map 47% reduce 0%
+2026-10-03 13:03:10 INFO  Job:1754 -  map 48% reduce 0%
+2026-10-03 13:03:12 INFO  Job:1754 -  map 49% reduce 0%
+2026-10-03 13:03:14 INFO  Job:1754 -  map 50% reduce 0%
+2026-10-03 13:03:17 INFO  Job:1754 -  map 52% reduce 0%
+2026-10-03 13:03:20 INFO  Job:1754 -  map 53% reduce 0%
+2026-10-03 13:03:21 INFO  Job:1754 -  map 54% reduce 0%
+2026-10-03 13:03:23 INFO  Job:1754 -  map 55% reduce 0%
+2026-10-03 13:03:25 INFO  Job:1754 -  map 56% reduce 0%
+2026-10-03 13:03:27 INFO  Job:1754 -  map 57% reduce 0%
+2026-10-03 13:03:31 INFO  Job:1754 -  map 58% reduce 0%
+2026-10-03 13:03:33 INFO  Job:1754 -  map 59% reduce 0%
+2026-10-03 13:03:34 INFO  Job:1754 -  map 60% reduce 0%
+2026-10-03 13:03:38 INFO  Job:1754 -  map 61% reduce 0%
+2026-10-03 13:03:40 INFO  Job:1754 -  map 62% reduce 0%
+2026-10-03 13:03:43 INFO  Job:1754 -  map 63% reduce 0%
+2026-10-03 13:03:44 INFO  Job:1754 -  map 64% reduce 0%
+2026-10-03 13:03:46 INFO  Job:1754 -  map 65% reduce 0%
+2026-10-03 13:03:48 INFO  Job:1754 -  map 66% reduce 0%
+2026-10-03 13:03:51 INFO  Job:1754 -  map 67% reduce 0%
+2026-10-03 13:03:52 INFO  Job:1754 -  map 68% reduce 0%
+2026-10-03 13:03:55 INFO  Job:1754 -  map 69% reduce 0%
+2026-10-03 13:03:57 INFO  Job:1754 -  map 70% reduce 0%
+2026-10-03 13:03:58 INFO  Job:1754 -  map 71% reduce 0%
+2026-10-03 13:04:00 INFO  Job:1754 -  map 72% reduce 0%
+2026-10-03 13:04:02 INFO  Job:1754 -  map 73% reduce 0%
+2026-10-03 13:04:07 INFO  Job:1754 -  map 74% reduce 0%
+2026-10-03 13:04:09 INFO  Job:1754 -  map 75% reduce 0%
+2026-10-03 13:04:13 INFO  Job:1754 -  map 76% reduce 0%
+2026-10-03 13:04:14 INFO  Job:1754 -  map 77% reduce 0%
+2026-10-03 13:04:15 INFO  Job:1754 -  map 78% reduce 0%
+2026-10-03 13:04:18 INFO  Job:1754 -  map 79% reduce 0%
+2026-10-03 13:04:20 INFO  Job:1754 -  map 80% reduce 0%
+2026-10-03 13:04:23 INFO  Job:1754 -  map 81% reduce 0%
+2026-10-03 13:04:24 INFO  Job:1754 -  map 82% reduce 0%
+2026-10-03 13:04:25 INFO  Job:1754 -  map 83% reduce 0%
+2026-10-03 13:04:26 INFO  Job:1754 -  map 84% reduce 0%
+2026-10-03 13:04:27 INFO  Job:1754 -  map 85% reduce 0%
+2026-10-03 13:04:31 INFO  Job:1754 -  map 86% reduce 0%
+2026-10-03 13:04:32 INFO  Job:1754 -  map 87% reduce 0%
+2026-10-03 13:04:34 INFO  Job:1754 -  map 88% reduce 0%
+2026-10-03 13:04:37 INFO  Job:1754 -  map 89% reduce 0%
+2026-10-03 13:04:41 INFO  Job:1754 -  map 90% reduce 0%
+2026-10-03 13:04:43 INFO  Job:1754 -  map 91% reduce 0%
+2026-10-03 13:04:46 INFO  Job:1754 -  map 92% reduce 0%
+2026-10-03 13:04:47 INFO  Job:1754 -  map 93% reduce 0%
+2026-10-03 13:04:49 INFO  Job:1754 -  map 94% reduce 0%
+2026-10-03 13:04:56 INFO  Job:1754 -  map 95% reduce 0%
+2026-10-03 13:04:57 INFO  Job:1754 -  map 96% reduce 0%
+2026-10-03 13:04:58 INFO  Job:1754 -  map 97% reduce 0%
+2026-10-03 13:05:03 INFO  Job:1754 -  map 99% reduce 0%
+2026-10-03 13:05:07 INFO  Job:1754 -  map 100% reduce 0%
+2026-10-03 13:05:11 INFO  Job:1754 -  map 100% reduce 50%
+2026-10-03 13:05:12 INFO  Job:1754 -  map 100% reduce 75%
+2026-10-03 13:05:13 INFO  Job:1754 -  map 100% reduce 100%
+2026-10-03 13:05:15 INFO  Job:1765 - Job job_1791032284741_0005 completed successfully
+2026-10-03 13:05:15 INFO  Job:1772 - Counters: 58
+	File System Counters
+		FILE: Number of bytes read=45660125
+		FILE: Number of bytes written=123617744
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=75385665
+		HDFS: Number of bytes written=42283530
+		HDFS: Number of read operations=320
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=8
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Failed map tasks=1
+		Killed map tasks=1
+		Launched map tasks=101
+		Launched reduce tasks=4
+		Other local map tasks=1
+		Rack-local map tasks=100
+		Total time spent by all maps in occupied slots (ms)=2186328
+		Total time spent by all reduces in occupied slots (ms)=126273
+		Total time spent by all map tasks (ms)=728776
+		Total time spent by all reduce tasks (ms)=42091
+		Total vcore-milliseconds taken by all map tasks=728776
+		Total vcore-milliseconds taken by all reduce tasks=42091
+		Total megabyte-milliseconds taken by all map tasks=559699968
+		Total megabyte-milliseconds taken by all reduce tasks=32325888
+	Map-Reduce Framework
+		Map input records=1550175
+		Map output records=12547131
+		Map output bytes=590110105
+		Map output materialized bytes=45662501
+		Input split bytes=14086
+		Combine input records=12547131
+		Combine output records=879659
+		Reduce input groups=879659
+		Reduce shuffle bytes=45662501
+		Reduce input records=879659
+		Reduce output records=879659
+		Spilled Records=1759318
+		Shuffled Maps =400
+		Failed Shuffles=0
+		Merged Map outputs=400
+		GC time elapsed (ms)=11962
+		CPU time spent (ms)=183720
+		Physical memory (bytes) snapshot=48998555648
+		Virtual memory (bytes) snapshot=312932405248
+		Total committed heap usage (bytes)=34442575872
+		Peak Map Physical memory (bytes)=533856256
+		Peak Map Virtual memory (bytes)=3013996544
+		Peak Reduce Physical memory (bytes)=361349120
+		Peak Reduce Virtual memory (bytes)=3021115392
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=75371579
+	File Output Format Counters 
+		Bytes Written=42283530
+	tfidf.Counters
+		TOKENS=12547131
+2026-10-03 13:05:15 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.20.0.6:8032
+2026-10-03 13:05:15 INFO  JobResourceUploader:907 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1791032284741_0006
+2026-10-03 13:05:15 INFO  FileInputFormat:302 - Total input files to process : 4
+2026-10-03 13:05:15 INFO  JobSubmitter:203 - number of splits:4
+2026-10-03 13:05:15 INFO  JobSubmitter:299 - Submitting tokens for job: job_1791032284741_0006
+2026-10-03 13:05:15 INFO  JobSubmitter:300 - Executing with tokens: []
+2026-10-03 13:05:15 INFO  YarnClientImpl:356 - Submitted application application_1791032284741_0006
+2026-10-03 13:05:16 INFO  Job:1681 - The url to track the job: http://resourcemanager:8088/proxy/application_1791032284741_0006/
+2026-10-03 13:05:16 INFO  Job:1726 - Running job: job_1791032284741_0006
+2026-10-03 13:05:23 INFO  Job:1747 - Job job_1791032284741_0006 running in uber mode : false
+2026-10-03 13:05:23 INFO  Job:1754 -  map 0% reduce 0%
+2026-10-03 13:05:32 INFO  Job:1754 -  map 25% reduce 0%
+2026-10-03 13:05:33 INFO  Job:1754 -  map 50% reduce 0%
+2026-10-03 13:05:34 INFO  Job:1754 -  map 75% reduce 0%
+2026-10-03 13:05:35 INFO  Job:1754 -  map 100% reduce 0%
+2026-10-03 13:05:45 INFO  Job:1754 -  map 100% reduce 50%
+2026-10-03 13:05:46 INFO  Job:1754 -  map 100% reduce 75%
+2026-10-03 13:05:47 INFO  Job:1754 -  map 100% reduce 100%
+2026-10-03 13:05:49 INFO  Job:1765 - Job job_1791032284741_0006 completed successfully
+2026-10-03 13:05:49 INFO  Job:1772 - Counters: 56
+	File System Counters
+		FILE: Number of bytes read=44042872
+		FILE: Number of bytes written=90568292
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=42284070
+		HDFS: Number of bytes written=48110988
+		HDFS: Number of read operations=32
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=8
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=4
+		Rack-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=68769
+		Total time spent by all reduces in occupied slots (ms)=100593
+		Total time spent by all map tasks (ms)=22923
+		Total time spent by all reduce tasks (ms)=33531
+		Total vcore-milliseconds taken by all map tasks=22923
+		Total vcore-milliseconds taken by all reduce tasks=33531
+		Total megabyte-milliseconds taken by all map tasks=17604864
+		Total megabyte-milliseconds taken by all reduce tasks=25751808
+	Map-Reduce Framework
+		Map input records=879659
+		Map output records=879659
+		Map output bytes=42283530
+		Map output materialized bytes=44042944
+		Input split bytes=540
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100
+		Reduce shuffle bytes=44042944
+		Reduce input records=879659
+		Reduce output records=879659
+		Spilled Records=1759318
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=1014
+		CPU time spent (ms)=17970
+		Physical memory (bytes) snapshot=3691712512
+		Virtual memory (bytes) snapshot=24121864192
+		Total committed heap usage (bytes)=2545942528
+		Peak Map Physical memory (bytes)=506413056
+		Peak Map Virtual memory (bytes)=3008368640
+		Peak Reduce Physical memory (bytes)=459640832
+		Peak Reduce Virtual memory (bytes)=3025752064
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=42283530
+	File Output Format Counters 
+		Bytes Written=48110988
+	tfidf.Counters
+		DOCUMENTS=100
+2026-10-03 13:05:49 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.20.0.6:8032
+2026-10-03 13:05:49 INFO  JobResourceUploader:907 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1791032284741_0007
+2026-10-03 13:05:49 INFO  FileInputFormat:302 - Total input files to process : 4
+2026-10-03 13:05:49 INFO  JobSubmitter:203 - number of splits:4
+2026-10-03 13:05:49 INFO  JobSubmitter:299 - Submitting tokens for job: job_1791032284741_0007
+2026-10-03 13:05:49 INFO  JobSubmitter:300 - Executing with tokens: []
+2026-10-03 13:05:50 INFO  YarnClientImpl:356 - Submitted application application_1791032284741_0007
+2026-10-03 13:05:50 INFO  Job:1681 - The url to track the job: http://resourcemanager:8088/proxy/application_1791032284741_0007/
+2026-10-03 13:05:50 INFO  Job:1726 - Running job: job_1791032284741_0007
+2026-10-03 13:05:57 INFO  Job:1747 - Job job_1791032284741_0007 running in uber mode : false
+2026-10-03 13:05:57 INFO  Job:1754 -  map 0% reduce 0%
+2026-10-03 13:06:06 INFO  Job:1754 -  map 50% reduce 0%
+2026-10-03 13:06:07 INFO  Job:1754 -  map 75% reduce 0%
+2026-10-03 13:06:08 INFO  Job:1754 -  map 100% reduce 0%
+2026-10-03 13:06:18 INFO  Job:1754 -  map 100% reduce 25%
+2026-10-03 13:06:19 INFO  Job:1754 -  map 100% reduce 100%
+2026-10-03 13:06:21 INFO  Job:1765 - Job job_1791032284741_0007 completed successfully
+2026-10-03 13:06:21 INFO  Job:1772 - Counters: 56
+	File System Counters
+		FILE: Number of bytes read=49870330
+		FILE: Number of bytes written=102225944
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=48111492
+		HDFS: Number of bytes written=58934530
+		HDFS: Number of read operations=32
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=8
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=4
+		Rack-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=66048
+		Total time spent by all reduces in occupied slots (ms)=97308
+		Total time spent by all map tasks (ms)=22016
+		Total time spent by all reduce tasks (ms)=32436
+		Total vcore-milliseconds taken by all map tasks=22016
+		Total vcore-milliseconds taken by all reduce tasks=32436
+		Total megabyte-milliseconds taken by all map tasks=16908288
+		Total megabyte-milliseconds taken by all reduce tasks=24910848
+	Map-Reduce Framework
+		Map input records=879659
+		Map output records=879659
+		Map output bytes=48110988
+		Map output materialized bytes=49870402
+		Input split bytes=504
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=116788
+		Reduce shuffle bytes=49870402
+		Reduce input records=879659
+		Reduce output records=879659
+		Spilled Records=1759318
+		Shuffled Maps =16
+		Failed Shuffles=0
+		Merged Map outputs=16
+		GC time elapsed (ms)=926
+		CPU time spent (ms)=17760
+		Physical memory (bytes) snapshot=3690852352
+		Virtual memory (bytes) snapshot=24106254336
+		Total committed heap usage (bytes)=2531262464
+		Peak Map Physical memory (bytes)=527368192
+		Peak Map Virtual memory (bytes)=3007180800
+		Peak Reduce Physical memory (bytes)=420151296
+		Peak Reduce Virtual memory (bytes)=3020775424
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=48110988
+	File Output Format Counters 
+		Bytes Written=58934530
+	tfidf.Counters
+		UNIQUE_TERMS=116788
+2026-10-03 13:06:21 INFO  DefaultNoHARMFailoverProxyProvider:64 - Connecting to ResourceManager at resourcemanager/172.20.0.6:8032
+2026-10-03 13:06:21 INFO  JobResourceUploader:907 - Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1791032284741_0008
+2026-10-03 13:06:21 INFO  FileInputFormat:302 - Total input files to process : 4
+2026-10-03 13:06:21 INFO  JobSubmitter:203 - number of splits:4
+2026-10-03 13:06:21 INFO  JobSubmitter:299 - Submitting tokens for job: job_1791032284741_0008
+2026-10-03 13:06:21 INFO  JobSubmitter:300 - Executing with tokens: []
+2026-10-03 13:06:21 INFO  YarnClientImpl:356 - Submitted application application_1791032284741_0008
+2026-10-03 13:06:21 INFO  Job:1681 - The url to track the job: http://resourcemanager:8088/proxy/application_1791032284741_0008/
+2026-10-03 13:06:21 INFO  Job:1726 - Running job: job_1791032284741_0008
+2026-10-03 13:06:28 INFO  Job:1747 - Job job_1791032284741_0008 running in uber mode : false
+2026-10-03 13:06:28 INFO  Job:1754 -  map 0% reduce 0%
+2026-10-03 13:06:38 INFO  Job:1754 -  map 25% reduce 0%
+2026-10-03 13:06:39 INFO  Job:1754 -  map 50% reduce 0%
+2026-10-03 13:06:42 INFO  Job:1754 -  map 100% reduce 0%
+2026-10-03 13:06:48 INFO  Job:1754 -  map 100% reduce 100%
+2026-10-03 13:06:49 INFO  Job:1765 - Job job_1791032284741_0008 completed successfully
+2026-10-03 13:06:49 INFO  Job:1772 - Counters: 56
+	File System Counters
+		FILE: Number of bytes read=255260
+		FILE: Number of bytes written=2376710
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=58935046
+		HDFS: Number of bytes written=67614
+		HDFS: Number of read operations=22
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=4
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=4
+		Launched reduce tasks=2
+		Rack-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=72711
+		Total time spent by all reduces in occupied slots (ms)=22320
+		Total time spent by all map tasks (ms)=24237
+		Total time spent by all reduce tasks (ms)=7440
+		Total vcore-milliseconds taken by all map tasks=24237
+		Total vcore-milliseconds taken by all reduce tasks=7440
+		Total megabyte-milliseconds taken by all map tasks=18614016
+		Total megabyte-milliseconds taken by all reduce tasks=5713920
+	Map-Reduce Framework
+		Map input records=879659
+		Map output records=4000
+		Map output bytes=247248
+		Map output materialized bytes=255296
+		Input split bytes=516
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=100
+		Reduce shuffle bytes=255296
+		Reduce input records=4000
+		Reduce output records=1000
+		Spilled Records=8000
+		Shuffled Maps =8
+		Failed Shuffles=0
+		Merged Map outputs=8
+		GC time elapsed (ms)=476
+		CPU time spent (ms)=9800
+		Physical memory (bytes) snapshot=2604122112
+		Virtual memory (bytes) snapshot=18055393280
+		Total committed heap usage (bytes)=1923088384
+		Peak Map Physical memory (bytes)=495763456
+		Peak Map Virtual memory (bytes)=3007635456
+		Peak Reduce Physical memory (bytes)=325296128
+		Peak Reduce Virtual memory (bytes)=3014340608
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=58934530
+	File Output Format Counters 
+		Bytes Written=67614
+	tfidf.Counters
+		TOPN_CANDIDATES=4000
+
+=== TF-IDF pipeline summary ===
+STAGE tfidf-1-term-count        239.55s  maps=101 reduces=4 map_in=1550175 map_out=12547131 combine_out=879659 shuffle_bytes=45662501 reduce_groups=879659 reduce_out=879659 spilled=1759318
+STAGE tfidf-2-term-frequency     33.84s  maps=4 reduces=4 map_in=879659 map_out=879659 combine_out=0 shuffle_bytes=44042944 reduce_groups=100 reduce_out=879659 spilled=1759318
+STAGE tfidf-3-tfidf              31.97s  maps=4 reduces=4 map_in=879659 map_out=879659 combine_out=0 shuffle_bytes=49870402 reduce_groups=116788 reduce_out=879659 spilled=1759318
+STAGE tfidf-4-top-n              28.33s  maps=4 reduces=2 map_in=879659 map_out=4000 combine_out=0 shuffle_bytes=255296 reduce_groups=100 reduce_out=1000 spilled=8000
+TOTAL_SECONDS 333.79
